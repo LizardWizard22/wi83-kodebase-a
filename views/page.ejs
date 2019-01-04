@@ -2,8 +2,12 @@
 <% include partials/header.ejs %>
 <main role="main">
 	<section>
-		<h1><%= title %></h1>
-		<%= content %>
+		<form method="POST">
+		 <input name="eput" type="email">
+		 <button type="submit">Yeet</button>
+		 
+		</form>
+		<p><%= content %></p>
 	</section>
 </main>
 <% include partials/footer.ejs %>
